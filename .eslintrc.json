@@ -1,0 +1,19 @@
+{
+  "globals": {
+    "browser": true,
+    "before": true,
+    "beforeEach": true,
+    "after": true,
+    "afterEach": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
